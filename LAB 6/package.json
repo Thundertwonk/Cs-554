@@ -1,0 +1,24 @@
+{
+  "name": "lab-6",
+  "version": "1.0.0",
+  "description": "lab6",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "apollo-server": "^2.19.0",
+    "axios": "^0.21.0",
+    "bluebird": "^3.7.2",
+    "graphql": "^15.4.0",
+    "lodash": "^4.17.20",
+    "redis": "^3.0.2",
+    "uuid": "^8.3.1",
+    "xss": "^1.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Glen D'mello 10452455",
+  "license": "ISC"
+}
