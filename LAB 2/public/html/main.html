@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Favourite Movies</title>
+    <script src="public/js/vendor.min.js"></script>
+    <link rel="stylesheet" href="public/css/styles.min.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+<!--from w3 schools-->
+<div class="sidebar">
+    <a class="active" href="#">Home</a>
+    <a href="#borat">Borat</a>
+    <a href="#dict">The Dictator</a>
+    <a href="#nfs">Need For Speed</a>
+    <a href="#iron">Iron Man</a>
+    <a href="#joker">Joker</a>
+    <a href="#bvs">Batman v. Superman</a>
+    <a href="#thor">Thor:Ragnarok</a>
+    <a href="#strange">Dr.Strange</a>
+    <a href="#sony">Spiderman:Into The Spider-Verse</a>
+    <a href="#home">Spiderman:Far From Home</a>
+</div>
+
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div id="borat" class="card col-lg-3 col-md-4 col-xs-12">
+                <img class="card-img-top" src="/public/img/img1.jpg" alt="Borat">
+                <div class="card-body">
+                    <h1 class="card-title">Borat</h1>
+                    <p class="card-text">Borat, a Kazakh resident, travels to the USA to make a documentary on the country. While on his mission, he learns that the USA is the same as his own country in many ways.</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#mod1">Details</button>
+                </div>
+            </div>
+            <div id="dict" class="card col-lg-3 col-md-4 col-xs-12">
+                <img class="card-img-top" src="/public/img/img2.jpg" alt="The Dictator">
+                <div class="card-body">
+                    <h1 class="card-title">The Dictator</h1>
+                    <p class="card-text">Aladeen, a brutal dictator, travels to New York in order to address the United Nations Security Council. However, his plans go south when a hitman hired by his uncle, Tamir, kidnaps him.</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#mod2">Details</button>
+                </div>
+            </div>
+            <div id="nfs" class="card col-lg-3 col-md-4 col-xs-12">
+                <img class="card-img-top" src="/public/img/img3.jpg" alt="Need For Speed">
+                <div class="card-body">
+                    <h1 class="card-title">Need for Speed</h1>
+                    <p class="card-text">Vroom vroom movie</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#mod3">Details</button>
+                </div>
+            </div>
+            <div id="iron" class="card col-lg-3 col-md-4 col-xs-12">
+                <img class="card-img-top" src="/public/img/img4.jpg" alt="Iron man">
+                <div class="card-body">
+                    <h1 class="card-title">Iron Man</h1>
+                    <p class="card-text">When Tony Stark, an industrialist, is captured, he constructs a high-tech armoured suit to escape. Once he manages to escape, he decides to use his suit to fight against evil forces to save the world.</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#mod4">Details</button>
+                </div>
+            </div>
+            <div id="joker" class="card col-lg-3 col-md-4 col-xs-12">
+                <img class="card-img-top" src="/public/img/img5.jpg" alt="Joker">
+                <div class="card-body">
+                    <h1 class="card-title">Joker</h1>
+                    <p class="card-text">Arthur Fleck, a party clown, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of crime and chaos.</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#mod5">Details</button>
+                </div>
+            </div>
+            <div id="bvs" class="card col-lg-3 col-md-4 col-xs-12">
+                <img class="card-img-top" src="/public/img/img6.jpg" alt="Batman v. Superman">
+                <div class="card-body">
+                    <h1 class="card-title">Batman v. Superman</h1>
+                    <p class="card-text">Bruce Wayne, a billionaire, believes that Superman is a threat to humanity after his battle in Metropolis. Thus, he decides to adopt his mantle of Batman and defeat him once and for all.</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#mod6">Details</button>
+                </div>
+            </div>
+            <div id="thor" class="card col-lg-3 col-md-4 col-12">
+                <img class="card-img-top" src="/public/img/img7.jpg" alt="Thor:Ragnarok">
+                <div class="card-body">
+                    <h1 class="card-title"> Thor:Ragnarok</h1>
+                    <p class="card-text">Deprived of his mighty hammer Mjolnir, Thor must escape the other side of the universe to save his home, Asgard, from Hela, the goddess of death.</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#mod7">Details</button>
+                </div>
+            </div>
+            <div id="strange" class="card col-lg-3 col-md-4 col-xs-12">
+                <img class="card-img-top" src="/public/img/img8.jpg" alt="Dr.Strange">
+                <div class="card-body">
+                    <h1 class="card-title">Dr.Strange</h1>
+                    <p class="card-text">In an accident, Stephen Strange, a famous neurosurgeon, loses the ability to use his hands. He goes to visit the mysterious Ancient One to heal himself and becomes a great sorcerer under her tutelage.</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#mod8">Details</button>
+                </div>
+            </div>
+            <div id="sony" class="card col-lg-3 col-md-4 col-xs-12">
+                <img class="card-img-top" src="/public/img/img9.jpg" alt="Spiderman1">
+                <div class="card-body">
+                    <h1 class="card-title">Spider-Man: Into the Spider-Verse</h1>
+                    <p class="card-text">After gaining superpowers from a spider bite, Miles Morales protects the city as Spider-Man. Soon, he meets alternate versions of himself and gets embroiled in an epic battle to save the multiverse.</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#mod9">Details</button>
+                </div>
+            </div>
+            <div id="home" class="card col-lg-3 col-md-4 col-xs-12">
+                <img class="card-img-top" src="/public/img/img10.jpg" alt="Spiderman2">
+                <div class="card-body">
+                    <h1 class="card-title">Spiderman:Far From Home</h1>
+                    <p class="card-text">As Spider-Man, a beloved superhero, Peter Parker faces four destructive elemental monsters while on holiday in Europe. Soon, he receives help from Mysterio, a fellow hero with mysterious origins.</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#mod10">Details</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+
+<div id="mod1" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">Borat</h1>
+            </div>
+            <div class="modal-body">
+                <p>Borat, a Kazakh resident, travels to the USA to make a documentary on the country. While on his mission, he learns that the USA is the same as his own country in many ways.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="mod2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">The Dictator</h1>
+            </div>
+            <div class="modal-body">
+                <p>afsfa</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="mod3" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">Need for Speed</h1>
+            </div>
+            <div class="modal-body">
+                <p>Vroom Vroom movie</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="mod4" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">Iron Man</h1>
+            </div>
+            <div class="modal-body">
+                <p>When Tony Stark, an industrialist, is captured, he constructs a high-tech armoured suit to escape. Once he manages to escape, he decides to use his suit to fight against evil forces to save the world.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="mod5" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">Joker</h1>
+            </div>
+            <div class="modal-body">
+                <p>Arthur Fleck, a party clown, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of crime and chaos.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="mod6" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">Batman v Superman: Dawn of Justice</h1>
+            </div>
+            <div class="modal-body">
+                <p>Bruce Wayne, a billionaire, believes that Superman is a threat to humanity after his battle in Metropolis. Thus, he decides to adopt his mantle of Batman and defeat him once and for all.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="mod7" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">Thor:Ragnarok</h1>
+            </div>
+            <div class="modal-body">
+                <p>Deprived of his mighty hammer Mjolnir, Thor must escape the other side of the universe to save his home, Asgard, from Hela, the goddess of death.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="mod8" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">Doctor Strange</h1>
+            </div>
+            <div class="modal-body">
+                <p>In an accident, Stephen Strange, a famous neurosurgeon, loses the ability to use his hands. He goes to visit the mysterious Ancient One to heal himself and becomes a great sorcerer under her tutelage.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="mod9" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">Spiderman: Into The Spider-Verse</h1>
+            </div>
+            <div class="modal-body">
+                <p>After gaining superpowers from a spider bite, Miles Morales protects the city as Spider-Man. Soon, he meets alternate versions of himself and gets embroiled in an epic battle to save the multiverse.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="mod10" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">Spiderman:Far from Home</h1>
+            </div>
+            <div class="modal-body">
+                <p>As Spider-Man, a beloved superhero, Peter Parker faces four destructive elemental monsters while on holiday in Europe. Soon, he receives help from Mysterio, a fellow hero with mysterious origins.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

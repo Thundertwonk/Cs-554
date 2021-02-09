@@ -1,0 +1,15 @@
+ <header> 
+        <div>
+            <h1 class="text-center txt-color">Show List</h1>
+        </div>
+    </header>
+    <div class="container">
+  <ul class="list-unstyled card-columns list">
+      {{#each shows}}
+
+    <li><a href="../show/{{this.id}}" aria-label="movie name" class="txt-color">{{this.name}}</a></li>
+ 
+{{/each}}
+</ul>
+</div>
+

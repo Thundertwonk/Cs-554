@@ -1,0 +1,36 @@
+{
+	"name": "lab2",
+	"version": "1.0.0",
+	"description": "cs554lab2",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+	},
+	"author": "Glen D'mello 10452455",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"popper.js": "^1.16.1",
+		"uuid": "^3.4.0",
+		"xss": "^1.0.6"
+	},
+	"devDependencies": {
+		"bootstrap": "^4.5.2",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-uglify": "^3.0.2",
+		"imagemin-gifsicle": "^7.0.0",
+		"imagemin-jpegtran": "^7.0.0",
+		"imagemin-optipng": "^8.0.0",
+		"imagemin-svgo": "^8.0.0",
+		"jquery": "^3.5.1"
+	}
+}

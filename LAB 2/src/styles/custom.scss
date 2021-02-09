@@ -1,0 +1,90 @@
+
+  
+@import "variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+
+/* reference from w3schools */
+body,html {
+  background: $bodybg;
+   font-family: 'Times New Roman',serif;
+  font-size: $font-size;
+  background-clip: border-box;
+}
+
+.card {
+  margin-top: 15px;
+  padding: 2px;
+}
+
+.card-body {
+  background-color: $cardcol;
+  color: $text;
+}
+
+.btn-primary {
+  background-color: $buttonbg;
+  color: $button;
+  border-color: $bodybg;
+}
+
+.error {
+ color:$error;
+
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: $cardcol;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: $text;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+.sidebar a.active {
+  background-color: #0d0944;
+  color: $text;
+}
+
+
+.sidebar a:hover:not(.active) {
+  background-color: $text;
+  color: $cardcol;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width: 575px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
